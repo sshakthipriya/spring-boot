@@ -47,7 +47,7 @@ revolte:
             port: 8080
             variables:
               BASE_URL: /api/v1
-              DATASOURCE_URL: '#{db.dbUrl}'
+              DATASOURCE_URL: '#{db.dbConnectionString}'
               DATASOURCE_USERNAME: '#{db.dbUsername}'
               DATASOURCE_PASSWORD: '#{db.dbPassword}'
           specifications:
